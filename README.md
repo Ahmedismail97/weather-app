@@ -34,6 +34,7 @@ A modern weather application built with Vue 3 and TypeScript, featuring real-tim
 
 1. Clone the repository:
    git clone https://github.com/Ahmedismail97/weather-app.git
+   
    cd weather-app
 
 2. Install dependencies:
