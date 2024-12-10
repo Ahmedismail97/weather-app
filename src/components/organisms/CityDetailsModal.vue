@@ -79,7 +79,7 @@ function handleRemove() {
       <div v-if="location.lastWeather || weatherStore.currentLocation?.lastWeather" class="weather-content">
         <div class="current-weather">
           <WeatherIcon 
-            :condition="(location.lastWeather || weatherStore.currentLocation?.lastWeather)?.condition"
+            :condition="(location.lastWeather?.condition || weatherStore.currentLocation?.lastWeather?.condition || 'Unknown')"
             size="large"
             class="weather-icon"
           />
